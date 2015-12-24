@@ -1,4 +1,4 @@
-# Basic Types
+# 基本类型
 
 为了让我们的编程更加高效，我们总是需要一些基本类型的数据，如：`number`, `string`,`structure`,`boolean`等等。`TypeScript`支持所有`JavaScript`中的基本类型，并且还有它额外添加的类型，如`enumeration`。
 
@@ -28,7 +28,7 @@ name = 'smith';
 ```
 
 ## Array
-TypeScript, like JavaScript, allows you to work with arrays of values. Array types can be written in one of two ways. In the first, you use the type of the elements followed by '[]' to denote an array of that element type:
+
 和`JavaScript`一样，`TypeScript`同样也允许你使用数组值，它的类型名为`Array`。它有两种书写方式。第一种，即在元素的类型后加上`[]`来注明这是一个此类型元素的数组：
 
 ```ts
