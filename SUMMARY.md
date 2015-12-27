@@ -3,3 +3,4 @@
 * [Classes](Classes.md)
 * [Modules](Modules.md)
 * [Functions](Functions.md)
+* [Generics](Generics.md)
