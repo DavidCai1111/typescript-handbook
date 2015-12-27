@@ -2,3 +2,4 @@
 * [Interfaces](Interfaces.md)
 * [Classes](Classes.md)
 * [Modules](Modules.md)
+* [Functions](Functions.md)
