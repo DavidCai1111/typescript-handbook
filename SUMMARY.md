@@ -6,3 +6,4 @@
 * [Generics](Generics.md)
 * [Common Errors](CommonErrors.md)
 * [Mixins](Mixins.md)
+* [Declaration Merging](DeclarationMerging.md)
