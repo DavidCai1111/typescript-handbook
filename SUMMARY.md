@@ -4,3 +4,5 @@
 * [Modules](Modules.md)
 * [Functions](Functions.md)
 * [Generics](Generics.md)
+* [Common Errors](CommonErrors.md)
+* [Mixins](Mixins.md)
