@@ -7,3 +7,4 @@
 * [Common Errors](CommonErrors.md)
 * [Mixins](Mixins.md)
 * [Declaration Merging](DeclarationMerging.md)
+* [Type Inference](TypeInference.md)
