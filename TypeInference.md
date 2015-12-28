@@ -48,7 +48,7 @@ window.onmousedown = function(mouseEvent) {
 };
 ```
 
-上述的代码理论上会得到了一个类型错误。但当`TypeScript`使用`Window.onmousedown`函数的类型，来推导等号右边的类型时，它就有可能能够推导出`mouseEvent`参数的类型，并且如果该函数表达式没有在一个特定的上下文位置，那么`mouseEvent`将是`any`类型，不会得到报错。
+上述的代码会得到了一个类型错误。但当`TypeScript`使用`Window.onmousedown`函数的类型，来推导等号右边的类型时，它就能够推导出`mouseEvent`参数的类型，因此就会得到一个错误。但是如果该函数表达式没有在一个特定的上下文位置，那么`mouseEvent`将是`any`类型，不会得到报错。
 
 如果明确地指定了参数的类型，那么上下文类型将被忽略：
 

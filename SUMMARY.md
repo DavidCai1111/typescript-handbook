@@ -8,3 +8,4 @@
 * [Mixins](Mixins.md)
 * [Declaration Merging](DeclarationMerging.md)
 * [Type Inference](TypeInference.md)
+* [Type Compatibility](TypeCompatibility.md)
