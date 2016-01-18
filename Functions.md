@@ -135,7 +135,7 @@ function buildName(firstName: string, lastName = "Smith") {
 
 它们都共享类型`(firstName: string, lastName?: string)=>string`。在类型里，默认参数的默认值不见了，变成了一个可选参数标识。
 
-## Rest参数
+## 剩余参数
 
 必选，可选，默认参数，都有一个共同点，它们都关注于一个参数。但有时，你想同时处理多个参数，或者你不能明确知道函数被调用时实际的参数数量。在`JavaScript`中，你可以在一个函数体内使用`arguments`变量得到它们。
 
@@ -149,9 +149,9 @@ function buildName(firstName: string, ...restOfName: string[]) {
 var employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
 ```
 
-Rest参数被视为是任意数量的可选参数。编译器会以数组的形式，将它们全部放入你在`...`后指定的参数中，使它们能让你在函数中使用。
+剩余参数被视为是任意数量的可选参数。编译器会以数组的形式，将它们全部放入你在`...`后指定的参数中，使它们能让你在函数中使用。
 
-类型中也可以使用rest参数：
+类型中也可以使用剩余参数：
 
 ```ts
 function buildName(firstName: string, ...restOfName: string[]) {
